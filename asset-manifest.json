@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-03-phonebook/static/css/main.f3f7b944.css",
+    "main.js": "/goit-react-hw-03-phonebook/static/js/main.6aea6f9a.js",
+    "index.html": "/goit-react-hw-03-phonebook/index.html",
+    "static/media/trash-can.svg": "/goit-react-hw-03-phonebook/static/media/trash-can.34652586ff694d6a9c65.svg",
+    "main.f3f7b944.css.map": "/goit-react-hw-03-phonebook/static/css/main.f3f7b944.css.map",
+    "main.6aea6f9a.js.map": "/goit-react-hw-03-phonebook/static/js/main.6aea6f9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3f7b944.css",
+    "static/js/main.6aea6f9a.js"
+  ]
+}
