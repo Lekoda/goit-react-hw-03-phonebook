@@ -1,0 +1,31 @@
+.list {
+  list-style: none;
+  padding: 10px 15px;
+  font-weight: 700;
+  color: rgb(76, 72, 72);
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+  display: inline-block;
+  background-image: url(../../images/trash-can.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transition: transform 250ms var(--timingFn);
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}

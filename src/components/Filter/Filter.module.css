@@ -1,0 +1,21 @@
+.filter__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.label {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.input {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 3px;
+  width: 85%;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  caret-color: grey;
+}
