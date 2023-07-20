@@ -9,9 +9,11 @@ export class App extends Component {
     contacts: [],
     filter: '',
   };
+
   componentDidMount() {
-    const parsedContacts = JSON.parse(localStorage.getItem('contacs'));
-    console.log(parsedContacts);
+    const contactsStoraged = localStorage.getItem('contacts');
+    const parsedContacts = JSON.parse(contactsStoraged);
+
     if (parsedContacts) {
       this.setState({ contacts: parsedContacts });
     }
